@@ -1,0 +1,30 @@
+package EjerciciosTema_4;
+
+import java.util.Scanner;
+
+public class EjerciciosTema_4_1 {
+	
+	public static final float suplemento=2;
+	public static final float precioCompra=30;
+	public static void main(String[] args) {
+		/*
+		 * Ejercicio 4.1 : Modifique el programa para que, en 
+		 * lugar de realizar un descuento del 8% si la compra es
+		 *  de 100 € o más, aplique un suplemento de 2 € si el 
+		 *  precio es inferior a 30 €.
+			La siguiente tabla muestra los errores típicos que
+			 podemos cometer al usar una sentencia if 
+
+		 */
+		Scanner scan = new Scanner(System.in);
+		System.out.print("- Ingresa el precio del producto por favor: ");
+		float precio = scan.nextFloat();
+		if (precio>=precioCompra) {
+			
+			precio = precio+suplemento;
+			
+		}
+		System.out.println("- El precio final a pagar es de: "+precio+" Euros.");
+	}
+
+}

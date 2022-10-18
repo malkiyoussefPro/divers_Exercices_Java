@@ -1,0 +1,18 @@
+package Ejercicios_Tema_3;
+
+public class CalculQuadrat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int costat=9;
+		int perimtro;
+		perimtro=9*4;
+		int area=costat*2;
+		
+		System.out.println("- El perimetro del cuadrado es:"+perimtro);
+		System.out.println("- El area del cuadrado es:"+area);
+		
+
+	}
+
+}

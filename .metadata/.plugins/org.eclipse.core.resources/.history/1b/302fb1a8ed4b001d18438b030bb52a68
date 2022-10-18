@@ -1,0 +1,13 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_23 {
+
+	public static void main(String[] args) {
+		int i = 1, j = 1, k = 1;
+		System.out.println(i);
+		System.out.println(k);
+		System.out.println(i = ++j);
+
+	}
+
+}

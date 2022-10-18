@@ -1,0 +1,11 @@
+package Ejercicios_3_2;
+
+public class Ejercicio3_15 {
+
+	public static void main(String[] args) {
+		// Declara y rellenar el array
+		float [] arrayReales  = {12,6,15,6};
+		System.out.println(arrayReales[1]);
+	}
+
+}

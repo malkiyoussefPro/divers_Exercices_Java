@@ -1,0 +1,18 @@
+package Ejercicios_3_2;
+
+public class Ejercicio3_15 {
+
+	public static void main(String[] args) {
+		
+		// Declara las variables y el array y rellenar el array
+		double [] arrayReales  =  {6.74,6.6,8.83,7.9,7.65,9.7};
+		double suma;
+		
+		//hacer la suma de la posicion 0,2,4
+		suma=arrayReales[0]+arrayReales[2]+arrayReales[4];
+		
+		//Mostrar el resultado por pantalla
+		System.out.println(suma);
+	}
+
+}

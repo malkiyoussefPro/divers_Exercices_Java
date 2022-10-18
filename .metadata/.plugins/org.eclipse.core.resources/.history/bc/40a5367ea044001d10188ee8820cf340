@@ -1,0 +1,13 @@
+package Ejercicios_tema3;
+
+public class Ejercicio3_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m = 23;
+		int n = 12;
+		int resultat=-5;
+		System.out.println(resultat);
+	}
+
+}

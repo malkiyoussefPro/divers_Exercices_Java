@@ -1,0 +1,11 @@
+package Ejercicios_3_2;
+
+public class Ejercicio3_15 {
+
+	public static void main(String[] args) {
+		// Declara y rellenar el array
+		double [] arrayReales  =  {12.6,6.6,15.8,7.9,4.8,9.7};
+		System.out.println(arrayReales[1]);
+	}
+
+}

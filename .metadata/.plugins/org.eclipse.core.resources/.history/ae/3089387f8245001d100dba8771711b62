@@ -1,0 +1,72 @@
+package Ejercicios_3_2;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Ejercicio3_16 {
+
+	public static void main(String[] args) {
+		
+//		DecimalFormat df = new DecimalFormat("0.00");
+//		// Declarar un array de las notas y rellenarlo
+//		
+//		double []notasEstudiante = {8.5,7.2,6.5};
+//		
+//		//Declara una tabla de los alomnos
+//		double mediaPrimerTrimestre;
+//		
+//		//Calcular la media del primer trimestre
+//		mediaPrimerTrimestre= (notasEstudiante[0]+notasEstudiante[1]+notasEstudiante[2])/3;
+//		
+//		String resultado=df.format(mediaPrimerTrimestre);
+//		System.out.println(resultado);
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("- Ingresa el numero de los estudiantes:  ");
+		int numeroEstudiantes = scan.nextInt();
+		
+		int [][]arrayEstudiantes = new int[numeroEstudiantes][3];
+		//double []notasEstudiantes = new double[3];
+		for (int i = 1; i <arrayEstudiantes.length; i++) {
+			
+			for (int j = 1; j < arrayEstudiantes.length; j++) {
+				System.out.print("- Escribir el nom del estudiante:");
+				int nombreEstudiante;
+				
+				nombreEstudiante=arrayEstudiantes[i][j]=scan.nextInt();
+				
+				double nota1,nota2,nota3;
+				System.out.print("- Ingresa la primera nota:");
+				nota1= arrayEstudiantes[i][j]=scan.nextInt();
+				System.out.println("- La primera nota es: "+nota1);
+				
+				System.out.print("- Ingresa la segunda nota:");
+				nota2=  arrayEstudiantes[i][j]=scan.nextInt();
+				System.out.println("- La segunda nota es: "+nota2);
+				
+			    System.out.print("- Ingresa la tercera nota:");
+				nota3=  arrayEstudiantes[i][j]=scan.nextInt();
+				System.out.println("- La tercera nota es: "+nota3);
+			    
+				double notaMedia;
+				notaMedia=(nota1+nota2+nota3)/3;
+				notaMedia=arrayEstudiantes[i][j];
+				
+				
+			}
+			
+		}
+		}
+				
+}
+			
+//			System.out.println("- La nota media del alumno "+arrayEstudiantes[i][j]);
+//		}
+//		for (int j = 0; j < notasEstudiantes.length; j++) {
+//			
+//			
+//		}
+		
+	
+
+

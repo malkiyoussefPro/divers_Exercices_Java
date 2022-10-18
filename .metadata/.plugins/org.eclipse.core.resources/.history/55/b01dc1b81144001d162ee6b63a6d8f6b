@@ -1,0 +1,27 @@
+
+public class Ejercicios_tema3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int resultado;
+		int numeroAmultiplicar=3;
+		int [] tabla =  {0,1,2,3,4,5,6,7,8,9};
+		
+		System.out.println("****LA TABALA DE MULTIPLICACION DEL NUMERO 3 *******");
+//		System.out.println(resultado=tabla_3[0]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[1]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[2]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[3]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[4]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[5]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[6]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[7]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[8]*numeroAmultiplicar);
+//		System.out.println(resultado=tabla_3[9]*numeroAmultiplicar);
+		System.out.println("- la multiplicacion de "+numeroAmultiplicar+ " * "+tabla[0]+" = " +numeroAmultiplicar*tabla[0]);
+		
+		
+	}
+	
+
+}

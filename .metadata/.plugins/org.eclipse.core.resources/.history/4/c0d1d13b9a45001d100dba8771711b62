@@ -1,0 +1,43 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios3_20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		
+		double numeroReales[]= new double[5];
+		double mediNumeros =0;
+		for (int i = 0; i < numeroReales.length; i++) {
+			
+			System.out.print("- Ingresa el primer numero:");
+			double no1=numeroReales[i]=scan.nextDouble();
+			
+			mediNumeros= (mediNumeros+ numeroReales[i])/numeroReales.length;
+			
+		}
+		
+		System.out.println("-La media de los numeros "+numeroReales[0]+", "+numeroReales[1]+" ,"+numeroReales[3]+" :" +mediNumeros);
+		
+//		int no1,no2,no3;
+//		System.out.print("- Ingresa el primer numero:");
+//		no1=scan.nextInt();
+//		System.out.println("- El primer numero es: "+no1);
+//		
+//		System.out.print("- Ingresa la segunda nota:");
+//		no2=scan.nextInt();
+//		System.out.println("- El segundo numero es: "+no2);
+//		
+//	    System.out.print("- Ingresa el tercer numero:");
+//		no3=scan.nextInt();
+//		System.out.println("- El tercer numero es: "+no3);
+//	    
+//		int noMedia;
+//		noMedia=(no1+no2+no3)/3;
+//		
+//		System.out.println("- La  media de los numeros: "+no1+" ,"+no2+" ,"+no3+" es: "+noMedia);
+	}
+}

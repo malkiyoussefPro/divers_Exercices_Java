@@ -1,0 +1,22 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_23 {
+
+	public static void main(String[] args) {
+		int x = 10;
+		System. out .println ( x );
+		x ++;
+		System.out.println(x);
+		System.out.println(++ x);
+		System.out.println(x ++);
+		System.out.println( x ++);
+		System.out.println(++ x );
+		System.out.println(++ x );
+		++ x ;
+		x ++;
+		System. out .println (++ x );
+		System. out .println ( x ++);
+
+	}
+
+}

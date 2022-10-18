@@ -1,0 +1,25 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios_3_21 {
+
+	public static void main(String[] args) {
+		// programa para Convertir grados Fahrenheit en grados Celsius
+		
+		// declarar variables
+		float celicius, fahrenhit;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.err.println("- Ingresar el grado Fahrenheit:  ");
+		fahrenhit = scan.nextFloat();
+		scan.nextLine();
+		
+		celicius= (float) ((fahrenhit-32)/1.8);
+		
+		System.out.println("- La conversion de grados Fahrenheit: "+fahrenhit+" a Celsius es: "+celicius);
+
+	}
+
+}

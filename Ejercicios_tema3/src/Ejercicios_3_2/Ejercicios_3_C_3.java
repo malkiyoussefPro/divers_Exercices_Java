@@ -1,0 +1,12 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_C_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+
+	}
+
+}

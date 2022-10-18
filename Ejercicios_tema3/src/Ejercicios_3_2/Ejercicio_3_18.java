@@ -1,0 +1,14 @@
+package Ejercicios_3_2;
+
+public class Ejercicio_3_18 {
+
+	public static void main(String[] args) {
+		// Declarar El array y Asignar valores reales
+		
+		double [] numerosReales = {5.6,5.9,7.9,3.2};
+		
+		System.out.println("- El ultimo numero es: "+numerosReales[numerosReales.length-1]);
+
+	}
+
+}

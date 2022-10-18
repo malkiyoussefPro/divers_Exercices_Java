@@ -1,0 +1,28 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_C_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte b ;
+		short s ;
+		long ln ;
+		int y = 0 , j ;
+		float f ;
+		double d ;
+		char c = 0 ;
+		
+		/*
+		 * 	a) y + c 				j) b + c 			s) j – 4L	
+			b) f – c 				k) b / c + st) j – 4L * 2.5F
+			c) d + f 				l) c + c 			u) b + 2.5* y + 35F
+			d) d + i 				m) i + ln + d 		v) 'a' + b
+			e) i / fn) ln + c 		w) 'a' + c	
+			f) s + j 				o) 5 / j 			x) c + 2
+		 */	
+		System.out.println(y + c );
+		
+
+	}
+
+}

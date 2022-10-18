@@ -1,0 +1,30 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios3_20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		double no1,no2,no3;
+		System.out.print("- Ingresa el primer numero:");
+		no1=scan.nextInt();
+		System.out.println("- El primer numero es: "+no1);
+		
+		System.out.print("- Ingresa la segunda nota:");
+		no2=scan.nextInt();
+		System.out.println("- El segundo numero es: "+no2);
+		
+	    System.out.print("- Ingresa el tercer numero:");
+		no3=scan.nextInt();
+		System.out.println("- El tercer numero es: "+no3);
+	    
+		double noMedia;
+		noMedia=(no1+no2+no3)/3;
+		
+		System.out.println("- La  media de los numeros: "+no1+" ,"+no2+" ,"+no3+" es: "+noMedia);
+	}
+
+}

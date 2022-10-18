@@ -1,0 +1,39 @@
+package EjerciciosTema_4;
+
+import java.util.Scanner;
+
+public class EjercicioTema_4_5 {
+
+	public static void main(String[] args) {
+		/*
+		 * Ejercicio 4.5 : Pedir al usuario que entre 3 números por teclado y quitar por
+		 *  pantalla los números ordenados
+		 */
+		
+		//Declarar los variables
+		Scanner scan = new Scanner(System.in);
+        System.out.print("Ingresa el primer numero: ");
+        int numero1 = scan.nextInt();
+        System.out.print("Ingresa el segundo numero: ");
+        int numero2 = scan.nextInt();
+        System.out.print("Ingresa el tercer numero: ");
+        int numero3 = scan.nextInt();
+        if (numero1 < numero2 && numero2 < numero3) {
+            System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero1 + ", " + numero2 + ", " + numero3 + ".");
+        } else if (numero1 > numero2 && numero2 > numero3) {
+            System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero3 + ", " + numero2 + ", " + numero1 + ".");
+            if (numero2 < numero3 && numero3 < numero1) {
+                System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero2 + ", " + numero3 + ", " + numero1 + ".");
+            } else if (numero2 > numero2 && numero1 < numero3) {
+                System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero2 + ", " + numero1 + ", " + numero3 + ".");
+            }
+        } else if (numero3 < numero1 && numero1 < numero2) {
+            System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero3 + ", " + numero1 + ", " + numero2 + ".");
+        } else {
+            System.out.println("- El orden de menor a mayor de los numeros: " + numero1 + " y " + numero2 + " y " + numero3 + " es: \n-" + numero3 + ", " + numero2 + ", " + numero1 + ".");
+        }
+
+    }
+			
+		}
+}

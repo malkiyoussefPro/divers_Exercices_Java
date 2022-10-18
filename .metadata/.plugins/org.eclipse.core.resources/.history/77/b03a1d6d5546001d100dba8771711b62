@@ -1,0 +1,47 @@
+package Ejercicios_3_2;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+
+public class Ejercicio3_16 {
+	public static final int numeroTrimestres=3;
+	public static void main(String[] args) {
+		double notaMedia=0;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("- Ingresa el numero de los estudiantes:  ");
+		int numeroEstudiantes = scan.nextInt();
+		
+		double [][]arrayEstudiantes = new double[numeroEstudiantes][numeroTrimestres];
+		//double []notasEstudiantes = new double[3];
+		for (int i = 0; i <arrayEstudiantes.length; i++) {
+			
+			for (int j = 0; j < numeroTrimestres; j++) {
+				System.out.println("- Escribir la nota  del trimestre "+(j+1)+" para el estudiante: "+(i+1));
+
+				System.out.println("- Ingresa las nota:");
+				arrayEstudiantes[i][j]= scan.nextDouble();
+
+			}
+			
+		}
+		
+			for (int i = 0; i <arrayEstudiantes.length; i++) {
+			
+			for (int j = 0; j < numeroTrimestres; j++) {
+				DecimalFormat df = new DecimalFormat();
+			    notaMedia=notaMedia+arrayEstudiantes[i][j];
+				notaMedia=notaMedia/numeroTrimestres;
+				String resultatMedia=df.format(notaMedia);
+				System.out.println("- La nota media del estudiante es: "+resultatMedia);
+				
+			}
+		
+	}				
+}
+}		
+
+	
+
+

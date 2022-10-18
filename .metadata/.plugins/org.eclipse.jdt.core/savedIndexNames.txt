@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\Malki\eclipse-workspaceDAW2022_2023\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3566271152.index
+2707759104.index
+580798399.index
+2234331556.index
+1509799344.index

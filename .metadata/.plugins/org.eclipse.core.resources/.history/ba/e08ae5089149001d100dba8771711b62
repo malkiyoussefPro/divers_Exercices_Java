@@ -1,0 +1,40 @@
+package EjerciciosTema_4;
+
+import java.util.Scanner;
+
+public class EjercicioTema_4_5 {
+
+	public static void main(String[] args) {
+		/*
+		 * Ejercicio 4.5 : Pedir al usuario que entre 3 números por teclado y quitar por
+		 *  pantalla los números ordenados
+		 */
+		
+		//Declarar los variables
+		int num1,num2,num3;
+		Scanner scan = new Scanner(System.in);
+		//Pedir al teclado ingresar 3 numeros
+		System.out.print("- Ingresa el primer numero por favor: ");
+		num1=scan.nextInt(); 
+		System.out.print("- Ingresa el segundo numero por favor: ");
+		num2=scan.nextInt();
+		System.out.print("- Ingresa el tercer numero por favor: ");
+		num3=scan.nextInt();
+		
+		if((num2==(num1+1))) {
+			System.out.print("- Los numeros ordenados: "+num1+", "+num2+". \n"+"- Hay que guardar el numero: "+num3);
+		}
+		
+		else if ((num3==(num2-1))) 
+			System.out.print("- Los numeros ordenados: "+num2+", "+num3+". \n"+"- Hay que guardar el numero: "+num1);
+		
+		
+//		else if ((num3==(num2-1)))
+//			  
+//			System.out.print("- Los numeros ordenados: "+num2+", "+num3+". \n"+"- Hay que guardar numero: "+num1);		        
+//			
+//		else 
+//				System.out.println("- No hay ningun 2 numeros ordenados.");
+			
+		}
+}

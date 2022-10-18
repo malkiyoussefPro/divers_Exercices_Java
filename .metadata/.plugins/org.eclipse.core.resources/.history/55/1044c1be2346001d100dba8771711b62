@@ -1,0 +1,26 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios3_20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		
+		int numeroReales[]= new int[3];
+		double mediNumeros =0;
+		for (int i = 0; i < numeroReales.length; i++) {
+			
+			System.out.print("- Ingresa los "+numeroReales.length+" numero:");
+			int no1=numeroReales[i]= scan.nextInt();
+			
+			mediNumeros= (mediNumeros+ numeroReales[i])/numeroReales.length;
+			
+		}
+		
+		System.out.println("-La media de los numeros ("+numeroReales[0]+", "+numeroReales[1]+", "+numeroReales[2]+") = " +mediNumeros);
+		
+	}
+}
