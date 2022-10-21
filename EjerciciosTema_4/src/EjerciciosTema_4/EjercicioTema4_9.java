@@ -20,6 +20,7 @@ public class EjercicioTema4_9 {
            resultadoContador++;
             //PAS 7: Simplemente equivale a decir que damos la vuelta al bucle para evaluar la condición
         }
-        System.out.println("- El resultado final es " + dividendo + ".\n"+"- El resultado de la division es: "+resultadoContador);
+        System.out.println("- El cociente de la division es: "+resultadoContador+".\n"+
+                            "- El modulo de la division es: "+ dividendo + ".");
     }
 }

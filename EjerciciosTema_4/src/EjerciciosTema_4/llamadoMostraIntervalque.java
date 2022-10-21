@@ -22,7 +22,6 @@ public class llamadoMostraIntervalque {
             System.out.print("- Escribe el segundo numero: ");
             int numeroDos= scan.nextInt();
 
-
             boolean testNumeros =numeroUno<numeroDos;
                 if (testNumeros){
                     int numeroInterval = numeroUno+1;
@@ -31,7 +30,7 @@ public class llamadoMostraIntervalque {
                         numeroInterval++;
                       }
                 }else{
-                    System.out.println("- Error !!!!!, el numero: "+numeroUno+" es mas pequeno que "+numeroDos);
+                    System.out.println("- Error !!!!!, el numero: "+numeroUno+" es mas grande que "+numeroDos+".");
                 }
             }
             System.out.println("- Fin  Programa");
