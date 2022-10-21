@@ -1,0 +1,21 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios_3_22 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 *  Hacer un programa que pida al usuario la introducción de una frase por teclado y la muestre por pantalla toda en mayúsculas.
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String frase = scan.nextLine();
+		
+		System.out.println("- Convertir la frase "+frase+" todo en miniscula :\n"+frase.toLowerCase());
+		
+	}
+
+}

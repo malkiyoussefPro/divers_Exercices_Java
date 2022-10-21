@@ -1,0 +1,19 @@
+package Ejercicios_Tema_3;
+
+public class IntercambioValores {
+
+	public static void main(String[] args) {
+		// declaracion y asignar valores de las variables 
+		int numA=58;
+		int numB=7;
+		
+		// intercambio de los valores las variables
+		
+		numA=numB;
+		
+		System.out.println("- el intercambio valor de numA es:"+numA);
+		System.out.println("- el intercambio valor de numB es:"+numB);
+
+	}
+
+}

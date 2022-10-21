@@ -1,11 +1,7 @@
 package EjerciciosTema_4;
-
 import java.util.Scanner;
-
 public class EjercicioTema_4_5 {
-
 	public static void main(String[] args) {
-		
 		//Declarar los variables
 		Scanner scan = new Scanner(System.in);
         System.out.print("Ingresa el primer numero: ");
@@ -14,12 +10,7 @@ public class EjercicioTema_4_5 {
         int numero2 = scan.nextInt();
         System.out.print("Ingresa el tercer numero: ");
         int numero3 = scan.nextInt();
-        
-//        	int num;
-//        	num = Integer.parseInt(scan.next());
-//        System.out.println(num);
-        // declaracion constantes
-        
+
         String mensaje = "- El orden de menor a mayor de los numeros: ";
         String coma = ", ";
         
@@ -52,7 +43,5 @@ public class EjercicioTema_4_5 {
         } else {
             System.out.println(mensaje + numero1 + coma + numero2 + coma + numero3 + " es: \n- " + numero3 + coma + numero2 + coma + numero1 + ".");
         }
-
-        
-		}
+    }
 }

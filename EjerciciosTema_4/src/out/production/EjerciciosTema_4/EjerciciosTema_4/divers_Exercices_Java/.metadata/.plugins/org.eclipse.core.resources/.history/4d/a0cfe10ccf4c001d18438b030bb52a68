@@ -1,0 +1,26 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_C_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean   X, Y , Z;
+		
+		 X = true; 
+		 Y =false ;	 
+		 Z = true;
+		
+		/*
+		 * 	
+a) (X&&Y) || (X && Z) : true		b) (X || !Y)&& (!X || Z)
+
+c) X || Y && Z : true			d) !(X || Y) && Z : false
+
+e) X || Y || X && !Z && !Y 	f) !X || !Y || Z && X && !Y
+		 */		
+		System.out.println((X || !Y)&& (!X || Z) );
+		
+
+	}
+
+}

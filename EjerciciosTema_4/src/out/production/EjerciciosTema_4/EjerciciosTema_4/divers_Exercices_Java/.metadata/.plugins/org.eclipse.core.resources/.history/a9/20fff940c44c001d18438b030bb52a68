@@ -1,0 +1,23 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios_3_23 {
+
+	public static void main(String[] args) {
+		/*
+		 * Ejercicio 3.23 : Hacer un programa que pida al usuario una cadena de caracteres por teclado y 
+		 * le devuelva el último carácter de la cadena. (Se deben utilizar los métodos charAt () y length () )
+
+		 */
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("- Escribir una frase: ");
+		String frase = scan.nextLine();
+		
+		System.out.println("- El ultimo caracter de la frase: '"+frase+"' es: \n - "+frase.charAt(frase.length()-1));
+		
+	}
+
+}

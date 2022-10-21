@@ -15,5 +15,4 @@ public class ejercicio_3_19 {
 		a=true;b=true;
 		System.out.println(a||b);
 	}
-
 }

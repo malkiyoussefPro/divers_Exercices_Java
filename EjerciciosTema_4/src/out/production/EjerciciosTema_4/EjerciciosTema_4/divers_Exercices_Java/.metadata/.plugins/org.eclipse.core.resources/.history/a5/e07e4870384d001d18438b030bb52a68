@@ -1,0 +1,35 @@
+package Ejercicios_3_2;
+
+import java.util.Scanner;
+
+public class Ejercicios_3_24 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Hacer un programa que pida un carácter por pantalla y devuelva el siguiente carácter según el alfabeto (Por ejemplo:
+		 *  si el usuario entra una 'a' el programa devolverá una 'b'; si el usuario entra una 'J ' el programa devolverá una 'K') 
+		 *  (Debe utilizar el cambio de tipo de variable de char a int y al revés.
+
+		 */
+//		Scanner scan = new Scanner(System.in);
+//		// pedir al usuario una cadena de caracteres por teclado
+//		System.out.println("- Escribir una letra: ");
+//		char letra = scan.next().charAt(0);
+//		char letraSiguiente = letra;
+//		// Mostrar por pantalla el ultimo caractere 
+//		System.out.println("- La siguiente letra: '"+letra+"' según el alfabeto es: \n- "+letraSiguiente);
+		
+		for (char carcterMayuscula = 'A'; carcterMayuscula < 'Z'; carcterMayuscula++) {
+			System.out.print(carcterMayuscula+" ");
+			for (char carcterMiniscula = 'a'; carcterMiniscula < 'z'; carcterMiniscula++) {
+			
+				System.out.print(carcterMiniscula+" ");	
+				
+			}
+			
+			
+		}
+	}
+
+}

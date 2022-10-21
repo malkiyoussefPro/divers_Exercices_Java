@@ -1,0 +1,31 @@
+package Ejercicios_3_2;
+
+public class Ejercicios_3_C_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 8, j = 5;
+		float x = 0.005F, y = -0.01F;
+		char c = 'c', d = 'd';
+		
+		/*
+		 * 	a) y <= j : true										b) c > d
+			c) x >= 0 : true										d) x < y--
+			e) j != 6 : true										f) c == 99
+			g) !(y <= j) : false									h) !(c == 99)
+			i) !(x > 0) : true										j) –j == i - 13
+			k) ++x > 0 : true										l) y-- < 1
+			m) c > d || c > 0 : true								n) 5 * (i + j) > 'c'
+			o) 2 * x + y == 0 										p) 2 > x && (y == 0)
+			q) x + y >= 0 											r) x < ++y
+			s) – (i + j) != -i + j 									t) y <= j && y >= c
+			u) y > 0 && j < 5 										v) y > 0 || j < 5
+			w) x > y && y > 0 || j < 5 								x) (3 * i – 2 * j) % (2 * d – c) > 3 * d
+			y) 2 * ((y / 5) + (4 * (j – 3)) % (i + j – 2)) >= 10 	z) (i – 3 * j) % (c + 2 * d) / (x – y) >= 0
+		 */	
+		System.out.println(	z) (i – 3 * j) % (c + 2 * d) / (x – y) >= 0 );
+		
+
+	}
+
+}
