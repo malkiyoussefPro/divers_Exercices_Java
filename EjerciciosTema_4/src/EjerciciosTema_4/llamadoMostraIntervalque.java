@@ -25,13 +25,13 @@ public class llamadoMostraIntervalque {
 
             boolean testNumeros =numeroUno<numeroDos;
                 if (testNumeros){
-                    int numeroInterval = numeroUno;
+                    int numeroInterval = numeroUno+1;
                     while(numeroInterval<numeroDos){
-                    System.out.println("- La operacion es correcta el numero:"+numeroInterval);
+                    System.out.println("- La operacion es correcta, el numero siguiente:"+numeroInterval);
                         numeroInterval++;
                       }
                 }else{
-                    System.out.println("- Error !!!!!");
+                    System.out.println("- Error !!!!!, el numero: "+numeroUno+" es mas pequeno que "+numeroDos);
                 }
             }
             System.out.println("- Fin  Programa");
